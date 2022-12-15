@@ -3,10 +3,10 @@
 A small Mqttnet sample to connect and publish messages to the E4K broker
 
 ## Building and deploying
-To build image for specific os, use --os
+To build image:
 
 ```sh
-docker build -t counter-image -f Dockerfile .
+docker build -t myimagename -f Dockerfile .
 ```
 
 Import your image into your E4k cluster/push your image to your respective repo
